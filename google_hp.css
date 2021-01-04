@@ -6,15 +6,21 @@ li {
     padding: 25px;
 }
 
-#main {
-    position: absolute;
-    width: 100vw;
-    height: 70vh;
+#viewport {
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+
+#main {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
     justify-content: center;
-    margin-top: 100px;
+    gap: 15px;
+    margin-top: px;
 }
 
 img {
@@ -36,6 +42,7 @@ img {
     display: flex;
     justify-content: center;
     margin: 5px;
+    gap: 10px;
 }
 
 .tbleft {
@@ -44,4 +51,35 @@ img {
 
 .tbright {
     float: right;
+}
+
+.bbleft {
+    float:left;
+}
+
+.bbright {
+    float: right;
+}
+
+#bbdiv {
+    display: flex;
+    width:  100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#bottombar {
+    
+    background-color:#f2f2f2;
+    width: 100%;
+    border-top: 1pt solid rgba(0,0,0,.54);
+    font-size: 10pt;
+}
+
+#french {
+    font-size: 10pt
+}
+
+#search {
+    width: 400px;
 }
